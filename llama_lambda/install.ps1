@@ -8,7 +8,7 @@ python -m venv .venv
 pip install -r requirements.txt
 
 # Get the model URL from the user with a default value
-$MODELURL = Read-Host -Prompt "Please provide the direct link to the model you'd like to use" -Default "https://huggingface.co/vihangd/open_llama_7b_300bt_ggml/resolve/main/ggml-model-q4_0.bin"
+$MODELURL = Read-Host -Prompt "Please provide the direct link to the model you'd like to use" -Default "https://huggingface.co/TheBloke/Llama-2-13B-GGML/blob/main/llama-2-13b.ggmlv3.q4_0.bin"
 
 # Download the model
 Write-Host "Downloading $MODELURL"
